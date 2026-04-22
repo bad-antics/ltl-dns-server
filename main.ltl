@@ -1,0 +1,15 @@
+// ltl-dns-server/main.ltl
+//
+// Toy authoritative DNS server with A / AAAA / MX.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-dns-server v0.1.0")
+    io::println("Toy authoritative DNS server with A / AAAA / MX.")
+    0
+}
